@@ -1,0 +1,9 @@
+<!-- FILEPATH: /Users/noahkellner/Documents/GitHub/Firebase_Test/firebase-test/src/app/dialog/dialog.component.html -->
+
+<div *ngIf="loginSuccessful; else failedLogin">
+  <h1>Login Successful</h1>
+</div>
+
+<ng-template #failedLogin>
+  <h1>Failed Login</h1>
+</ng-template>

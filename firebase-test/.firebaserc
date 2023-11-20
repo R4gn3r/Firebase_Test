@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "test-f510d": {
+      "hosting": {
+        "firebase-test": [
+          "iamnvk-test-20-11"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "test-f510d"
+  }
+}
